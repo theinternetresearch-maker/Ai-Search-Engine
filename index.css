@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at center, rgba(0, 255, 0, 0.15) 0%, rgba(0, 0, 0, 1) 70%);
+}
+
+.search-gradient {
+  background: linear-gradient(to right, rgba(0, 255, 0, 0.1), rgba(0, 255, 0, 0.05));
+}
