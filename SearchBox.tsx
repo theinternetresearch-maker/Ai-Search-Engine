@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { cn } from './cn';
+import { cn } from '../utils/cn';
 
 interface SearchBoxProps {
   onSearch: (query: string) => void;
