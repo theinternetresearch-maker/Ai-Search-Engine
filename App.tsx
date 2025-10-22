@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { SearchBox } from './components/SearchBox';
-import { SearchResults } from './components/SearchResults';
-import { Header } from './components/Header';
-import { useSearch } from './hooks/useSearch';
+import { SearchBox } from './SearchBox';
+import { SearchResults } from './SearchResults';
+import { Header } from './Header';
+import { useSearch } from './useSearch';
 
 function App() {
   const { results, isLoading, handleSearch } = useSearch();
