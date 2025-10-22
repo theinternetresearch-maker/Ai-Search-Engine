@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { SearchResult } from './index';
-import { mockSearchResults } from './mockData';
+import { SearchResult } from '../types';
+import { mockSearchResults } from '../data/mockData';
 
 export function useSearch() {
   const [results, setResults] = useState<SearchResult[]>([]);
